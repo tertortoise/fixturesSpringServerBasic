@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 import org.tertortoise.blankspringserver.resources.Greeting;
 
 import java.util.concurrent.atomic.AtomicLong;
-@CrossOrigin(origins = "http://localhost:63342")
+@CrossOrigin(origins = "http://localhost:3000")
 @RestController
 public class Controllers {
 
